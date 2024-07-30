@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="text-center">
+      <header className="bg-blue-500 text-white p-6">
+        <h1 className="text-3xl font-bold">
+          하이요
+        </h1>
       </header>
+      <main className="p-4">
+        <p className="text-lg">
+          Your project is now set up and ready to go!
+        </p>
+      </main>
     </div>
   );
 }
