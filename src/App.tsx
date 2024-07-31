@@ -1,18 +1,11 @@
 import React from 'react';
-
+import { RealHead } from '../src/components/head/RealHead';
+import { RealBody } from './components/body/RealBody';
 const App: React.FC = () => {
   return (
-    <div className="text-center">
-      <header className="bg-blue-500 text-white p-6">
-        <h1 className="text-3xl font-bold">
-          하이요
-        </h1>
-      </header>
-      <main className="p-4">
-        <p className="text-lg">
-          Your project is now set up and ready to go!
-        </p>
-      </main>
+    <div className="text-center bg-blue-100 min-h-screen">
+     <RealHead/>
+     <RealBody/>
     </div>
   );
 }
